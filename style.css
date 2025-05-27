@@ -169,6 +169,18 @@ button:focus {
   font-weight: var(--fw-600);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 @media screen and (max-width: 375px) {
   .container {
     background-image: url("./assets/images/background-pattern-mobile.svg");
