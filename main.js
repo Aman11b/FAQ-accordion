@@ -22,10 +22,16 @@ plusBtns.forEach((plusBtn, index) => {
     plusBtn.style.display = "none";
     minusBtn.style.display = "";
     response.style.display = "";
+
+    plusBtn.setAttribute("aria-expanded", "false");
+    minusBtn.setAttribute("aria-expanded", "false");
   });
   minusBtn.addEventListener("click", () => {
     plusBtn.style.display = "";
     minusBtn.style.display = "none";
     response.style.display = "none";
+
+    plusBtn.setAttribute("aria-expanded", "true");
+    minusBtn.setAttribute("aria-expanded", "true");
   });
 });

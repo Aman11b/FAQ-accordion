@@ -133,6 +133,11 @@ body {
 button {
   background: none;
   border: none;
+  cursor: pointer;
+}
+button:focus {
+  outline: 3px solid var(--clr--Purple-950);
+  outline-offset: 3px;
 }
 .heading {
   display: flex;
@@ -149,7 +154,7 @@ button {
   padding: 1rem 0;
 }
 .question_response {
-  color: var(--clr-silver);
+  color: var(--clr-Purple-600);
   font-weight: var(--fw-600);
 }
 .questions_heading {
