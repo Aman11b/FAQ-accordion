@@ -151,7 +151,7 @@ button:focus {
   border-bottom: 0.5px solid var(--clr-whiteSmoke);
 }
 .question_response {
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
 }
 .question_response {
   color: var(--clr-Purple-600);
@@ -161,7 +161,7 @@ button:focus {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0;
+  padding: 0.6rem 0;
 }
 
 .questions_heading h2 {
